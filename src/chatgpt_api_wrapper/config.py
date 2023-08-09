@@ -6,9 +6,6 @@ load_dotenv()
 
 
 class Settings(BaseSettings):
-    """
-    Config
-    """
     VERBOSE: bool = False
     OPENAI_API_KEY: str | None = None
     
