@@ -17,7 +17,7 @@ poetry build
 Install the builded package using `pip`:
 ```bash
 cd dist
-pip install <.whl or .tag file>
+pip install <.whl or .tar file>
 ```
 
 ## License
